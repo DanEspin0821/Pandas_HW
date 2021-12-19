@@ -1,4 +1,4 @@
-Portfolio Analysis
+## Portfolio Analysis
 
 Background
 Harold's ask:
@@ -26,6 +26,7 @@ Choose and Evaluate a Custom Portfolio
 File: Whale Analysis Starter Code
 
 ## Prepare the Data
+
 Read / clean several CSV files for analysis. The CSV files include whale portfolio returns, algorithmic trading portfolio returns, and S&P 500 historical prices.
 
 Read in each of the CSV files as a DataFrame. Convert the dates to a DateTimeIndex.
@@ -47,11 +48,11 @@ Create a box plot for each of the returns.
 
 Calculate the standard deviation for each portfolio.
 
-Plot the rolling standard deviation of the firm's portfolios along with the rolling standard deviation of the S&P 500. Does the risk increase for each of the portfolios at the same time risk increases in the S&P?
+Plot the rolling standard deviation of the firm's portfolios along with the rolling standard deviation of the S&P 500.
 
-Construct a correlation table for the algorithmic, whale, and S&P 500 returns. Which returns most closely mimic the S&P?
+Construct a correlation table for the algorithmic, whale, and S&P 500 returns.
 
-Choose one portfolio and plot a rolling beta between that portfolio's returns and S&P 500 returns. Does the portfolio seem sensitive to movements in the S&P 500?
+Choose one portfolio and plot a rolling beta between that portfolio's returns and S&P 500 returns.
 
 Plot Sharpe Ratios
 
@@ -68,5 +69,6 @@ Clean the data
 
 Add your portfolio returns to the DataFrame with the other portfolios and rerun the analysis.
 
-Resources
-Pandas API Docs
+## Resources
+[Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html).
+[Netstar, 3M, Bacardi, and for Louis Vuitton China in 2010.](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.ewm.html).
