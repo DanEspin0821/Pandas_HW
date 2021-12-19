@@ -8,22 +8,20 @@ Determine which portfolio is performing the best across many areas:
 * risk
 * Sharpe ratios
 
-Harld needs to Analyze and visualize the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. 
+Harld needs to analyze and visualize the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. 
 Harld's provided input files inlcude:
-* historical daily returns of several portfolios: 
-      * some from the firm's algorithmic portfolios
-      * some that represent the portfolios of famous "whale" investors like Warren Buffett
-      * some from the big hedge and mutual funds
-      * custom portfolio of stocks
-      * S&P 500
+Historical daily returns of several portfolios: 
+* Firm's algorithmic portfolios
+* Portfolios of famous "whale" investors like Warren Buffett
+* Hedge/Mutual funds
+* Custom portfolio of stocks
+* S&P 500
 
 
 Requirements:
 Read in and Wrangle Returns Data
 Determine Success of Each Portfolio
 Choose and Evaluate a Custom Portfolio
-
-File: Whale Analysis Starter Code
 
 ## Prepare the Data
 
@@ -70,5 +68,6 @@ Clean the data
 Add your portfolio returns to the DataFrame with the other portfolios and rerun the analysis.
 
 ## Resources
-[Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html).
-[Netstar, 3M, Bacardi, and for Louis Vuitton China in 2010.](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.ewm.html).
+[Pandas API Docs](https://pandas.pydata.org/pandas-docs/stable/reference/index.html)
+
+[Pandas Documentation](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.ewm.html)
