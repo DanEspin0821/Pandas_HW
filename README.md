@@ -3,9 +3,9 @@
 Background
 Harold's ask:
 Determine which portfolio is performing the best across many areas: 
-* volatility
-* returns
-* risk
+* Volatility
+* Returns
+* Risk
 * Sharpe ratios
 
 Harld needs to analyze and visualize the major metrics of the portfolios across all of these areas, and determine which portfolio outperformed the others. 
